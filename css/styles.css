@@ -2,6 +2,9 @@
 body{
   
 }
+h1{
+  font-family: 'Open Sans', sans-serif;
+}
 #name{
   height:180px;
   width:100%;
@@ -10,7 +13,7 @@ body{
   font-size:25px;
 }
 #name h1{
-padding:50px;
+padding:0px;
   float: left;
 
  }
@@ -18,6 +21,13 @@ padding:50px;
    width:100%;
    height:25px;
    background:#deded1;
+}
+#top{
+  background-image:url("../images/big_img.jpg");
+  background-repeat:no-repeat;
+  background-size: 100% 600px;
+  width:100%;
+  height:600px;
 }
 #italic{
   font-size:55px;
@@ -42,5 +52,52 @@ list-style-type:none;
 #details p{
     text-decoration:none;
     text-align:center;
-    color:white;
-    
+}
+#blog{
+  margin:auto;
+  width:90%;
+}
+div p a{
+  color:#ffffff;
+  text-decoration:none;
+}
+#table table tr td{
+  width:20%;
+}
+#table{
+
+  margin:auto;
+  font-size:25px;
+}
+
+ #bar2{
+    width:100%;
+   height:50px;
+   background:#deded1;
+}
+#bar3{
+   width:100%;
+   height:300px;
+   background:#20ff15;
+}
+#bar4{
+   width:100%;
+   height:250px;
+   background:#001413;
+   color:#E8E301;
+}
+#end{
+   width:100%;
+   height:70px;
+   background:#ffffff;
+}
+#after{
+  margin:auto;
+  width:85%;
+}
+#after h3{
+  font-size:30px;
+}
+#after p{
+  font-size:25px;
+}
